@@ -1,11 +1,9 @@
-# CS571
-Building User Interfaces
-
-# Homework Assignments
+# CS571: Building User Interfaces
 
 HW1: Badger Mart
 
 HW2: Badger Book
+
 HW3: Badger Mart (React)
 
 HW4: Badger Book (React)
