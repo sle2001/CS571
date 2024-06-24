@@ -26,7 +26,7 @@ export default function App() {
     fetch("https://cs571.org/api/s24/hw9/chatrooms", {
       method: 'GET',
       headers: {
-        'X-CS571-ID': CS571.getBadgerId(),
+        'X-CS571-ID': 'bid_c1ebd02ea0f513574b747b18f8f75789406edb7874c5f11cd1acb87ef74459e6',
         'Content-Type': 'application/json' 
       }
     }).then(res => res.json())
@@ -38,7 +38,7 @@ export default function App() {
         method: 'POST',
         credentials: 'include',
         headers: {
-            'X-CS571-ID': CS571.getBadgerId(),
+            'X-CS571-ID': 'bid_c1ebd02ea0f513574b747b18f8f75789406edb7874c5f11cd1acb87ef74459e6',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({ 
@@ -74,7 +74,7 @@ function handleSignup(username, password, confirmPassword) {
       method: 'POST',
       credentials: 'include',
       headers: {
-          'X-CS571-ID': CS571.getBadgerId(),
+          'X-CS571-ID': 'bid_c1ebd02ea0f513574b747b18f8f75789406edb7874c5f11cd1acb87ef74459e6',
           'Content-Type': 'application/json'
       },
       body: JSON.stringify({ 

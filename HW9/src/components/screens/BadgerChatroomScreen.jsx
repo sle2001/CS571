@@ -20,7 +20,7 @@ function BadgerChatroomScreen(props) {
         fetch(`https://cs571.org/api/s24/hw9/messages?chatroom=${props.name}`, {
             method: 'GET',
             headers: {
-                "X-CS571-ID": CS571.getBadgerId(),
+                "X-CS571-ID": 'bid_c1ebd02ea0f513574b747b18f8f75789406edb7874c5f11cd1acb87ef74459e6',
                 "Content-Type": "application/json"
             }
         })
@@ -41,7 +41,7 @@ function BadgerChatroomScreen(props) {
             fetch(`https://cs571.org/api/s24/hw9/messages?chatroom=${props.name}`, {
                 method: "POST",
                 headers: {
-                    "X-CS571-ID": CS571.getBadgerId(),
+                    "X-CS571-ID": 'bid_c1ebd02ea0f513574b747b18f8f75789406edb7874c5f11cd1acb87ef74459e6',
                     "Content-Type": "application/json",
                     "Authorization": `Bearer ${token}`
                 },
@@ -73,7 +73,7 @@ function BadgerChatroomScreen(props) {
             fetch(`https://cs571.org/api/s24/hw9/messages?id=${id}`, {
                 method: "DELETE",
                 headers: {
-                    "X-CS571-ID": CS571.getBadgerId(),
+                    "X-CS571-ID": 'bid_c1ebd02ea0f513574b747b18f8f75789406edb7874c5f11cd1acb87ef74459e6',
                     "Content-Type": "application/json",
                     "Authorization": `Bearer ${token}`
                 }
