@@ -5,7 +5,7 @@
 
 fetch("https://cs571.org/api/s24/hw1/featured-sale-item", {
 	headers: {
-		"X-CS571-ID": CS571.getBadgerId()
+		"X-CS571-ID": 'bid_c1ebd02ea0f513574b747b18f8f75789406edb7874c5f11cd1acb87ef74459e6'
 	}
 })
 .then(res => {
