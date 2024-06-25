@@ -6,7 +6,10 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build:web": "expo build:web",
+    "build:ios": "expo build:ios",
+    "build:android": "expo build:android"
   },
   "dependencies": {
     "@cs571/mobile-client": "^0.0.4",
